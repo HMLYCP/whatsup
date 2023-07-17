@@ -1,0 +1,79 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+
+}
+
+h1 {
+    display: flex;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+.date {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    height: 40px
+}
+
+input {
+    display: flex;
+    width: 80%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+input[type=text] {
+    margin-left: 15px;
+}
+
+input[type=radio] {
+    width: 5%;
+    height: 75%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: gray 1px solid;
+}
+
+button1 {
+    border: gray 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+button2 {
+    border: gray 1px solid;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(38, 137, 231);
+}
