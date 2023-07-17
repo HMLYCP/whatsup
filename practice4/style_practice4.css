@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px gray solid;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content-item-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-top: 15px;
+}
+
+input {
+    display: flex;
+    width: 80%;
+}
+
+.content-item {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=radio] {
+    width: 5%;
+    height: 75%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: gray 1px solid;
+}
+
+button1 {
+    border: gray 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+button2 {
+    border: gray 1px solid;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(38, 137, 231);
+}
