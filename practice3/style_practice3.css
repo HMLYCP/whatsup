@@ -1,51 +1,55 @@
-.home {
+.container {
     display: flex;
     flex-direction: column;
-    padding: 30px;
     width: 80%;
+    border: 1px black solid;
+}
 
+.main-content {
+    padding: 30px;
 }
 
 h1 {
-    display: flex;
-    padding: 15px;
+    padding: 0px 15px;
 }
 
-.box {
-    display: flex;
+.container-item-title {
     padding: 15px;
     font-weight: bolder;
 }
 
-.dropdown {
+.nickname-selector-conatiner {
     display: flex;
-    padding: 15px;
+    flex-direction: column;
+}
+
+.nickname-selector {
+    padding: 0px 10px;
+    margin: 15px;
     height: 40px;
-    ;
 }
 
-select {
-    width: 100%;
+.nickname-selector option[value=""][disabled] {
+    display: none;
 }
 
-.date {
+.date-conatiner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px;
-    height: 40px
 }
 
 input {
-    width: 80%;
+    padding: 0px 15px;
+    height: 40px;
+    width: 90%;
 }
 
-.time {
-    display: flex;
+span {
     font-weight: bolder;
     color: rgb(33, 81, 224);
-    justify-content: center;
-    align-items: center;
-    width: 20%;
 }
 
 
